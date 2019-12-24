@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+ <servlet>
+      <servlet-name>FavoritesDeleteServlet</servlet-name>
+    <servlet-class>myservlet.control.FavoritesDeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FavoritesDeleteServlet</servlet-name>
+    <url-pattern>/FavoritesDeleteServlet</url-pattern>
+  </servlet-mapping> 
+ <servlet>
+      <servlet-name>LoginOutServlet</servlet-name>
+    <servlet-class>myservlet.control.LoginOutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <url-pattern>/LoginOutServlet</url-pattern>
+  </servlet-mapping> 
+ <servlet>
+      <servlet-name>FavoritesAddServlet</servlet-name>
+    <servlet-class>myservlet.control.FavoritesAddServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FavoritesAddServlet</servlet-name>
+    <url-pattern>/FavoritesAddServlet</url-pattern>
+  </servlet-mapping> 
+
+ <servlet>
+      <servlet-name>FavoritesListServlet</servlet-name>
+    <servlet-class>myservlet.control.FavoritesListServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FavoritesListServlet</servlet-name>
+    <url-pattern>/FavoritesListServlet</url-pattern>
+  </servlet-mapping> 
+
+
+ <servlet>
+      <servlet-name>ReceivingGoodsServlet</servlet-name>
+    <servlet-class>myservlet.control.ReceivingGoodsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ReceivingGoodsServlet</servlet-name>
+    <url-pattern>/ReceivingGoodsServlet</url-pattern>
+  </servlet-mapping> 
+ <servlet>
+      <servlet-name>TraceProductServlet</servlet-name>
+    <servlet-class>myservlet.control.TraceProductServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>TraceProductServlet</servlet-name>
+    <url-pattern>/TraceProductServlet</url-pattern>
+  </servlet-mapping> 
+  
+<servlet>
+      <servlet-name>OnceOrderCreateServlet</servlet-name>
+    <servlet-class>myservlet.control.OnceOrderCreateServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>OnceOrderCreateServlet</servlet-name>
+    <url-pattern>/OnceOrderCreateServlet</url-pattern>
+  </servlet-mapping>
+  
+          <servlet>
+      <servlet-name>UserInfoUpdateServlet</servlet-name>
+    <servlet-class>myservlet.control.UserInfoUpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UserInfoUpdateServlet</servlet-name>
+    <url-pattern>/UserInfoUpdateServlet</url-pattern>
+  </servlet-mapping>
+  
+        <servlet>
+      <servlet-name>OrderIteamDeleteServlet</servlet-name>
+    <servlet-class>myservlet.control.OrderIteamDeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>OrderIteamDeleteServlet</servlet-name>
+    <url-pattern>/OrderIteamDeleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+      <servlet>
+      <servlet-name>ProductIntroductionServlet</servlet-name>
+    <servlet-class>myservlet.control.ProductIntroductionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ProductIntroductionServlet</servlet-name>
+    <url-pattern>/ProductIntroductionServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+      <servlet-name>helpRegister</servlet-name>
+    <servlet-class>myservlet.control.RegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>helpRegister</servlet-name>
+    <url-pattern>/helpRegister</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+      <servlet-name>usercentServlet</servlet-name>
+    <servlet-class>myservlet.control.UserCentServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>usercentServlet</servlet-name>
+    <url-pattern>/usercentServlet</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+        <servlet-name>CarRecordListServlet</servlet-name>
+        <servlet-class>myservlet.control.CarRecordListServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>CarRecordListServlet</servlet-name>
+        <url-pattern>/listCarRecord</url-pattern>
+    </servlet-mapping>
+  
+    <servlet>
+        <servlet-name>ProductListServlet</servlet-name>
+        <servlet-class>myservlet.control.ProductListServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>ProductListServlet</servlet-name>
+        <url-pattern>/listProduct</url-pattern>
+    </servlet-mapping>
+ 
+     <servlet>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <servlet-class>myservlet.control.UserLoginServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <url-pattern>/UserLoginServlet</url-pattern>
+    </servlet-mapping>
+    
+         <servlet>
+        <servlet-name>OrderItemMinusServlet</servlet-name>
+        <servlet-class>myservlet.control.OrderItemMinusServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>OrderItemMinusServlet</servlet-name>
+        <url-pattern>/minusOrderItem</url-pattern>
+    </servlet-mapping>   
+        <servlet>
+        <servlet-name>OrderItemAddServlet</servlet-name>
+        <servlet-class>myservlet.control.OrderItemAddServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>OrderItemAddServlet</servlet-name>
+        <url-pattern>/addOrderItem</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+        <servlet-name>OrderItemListServlet</servlet-name>
+        <servlet-class>myservlet.control.OrderItemListServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>OrderItemListServlet</servlet-name>
+        <url-pattern>/listOrderItem</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+        <servlet-name>OrderCreateServlet</servlet-name>
+        <servlet-class>myservlet.control.OrderCreateServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>OrderCreateServlet</servlet-name>
+        <url-pattern>/createOrder</url-pattern>
+    </servlet-mapping>
+    
+  <jsp-config>
+        <taglib>
+            <taglib-uri>http://www.mldn.cn/jst/core</taglib-uri>
+            <taglib-location>/WEB-INF/c.tld</taglib-location>
+        </taglib>
+        <taglib>
+            <taglib-uri>http://www.mldn.cn/jst/fmt</taglib-uri>
+            <taglib-location>/WEB-INF/fmt.tld</taglib-location>
+        </taglib>
+        <taglib>
+            <taglib-uri>http://www.mldn.cn/jst/fn</taglib-uri>
+            <taglib-location>/WEB-INF/fn.tld</taglib-location>
+        </taglib>
+        <taglib>
+            <taglib-uri>http://www.mldn.cn/jst/sql</taglib-uri>
+            <taglib-location>/WEB-INF/sql.tld</taglib-location>
+        </taglib>
+        <taglib>
+            <taglib-uri>http://www.mldn.cn/jst/x</taglib-uri>
+            <taglib-location>/WEB-INF/x.tld</taglib-location>
+        </taglib>
+    </jsp-config>
+ 
+</web-app>
+

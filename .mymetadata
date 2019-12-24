@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="shixunexample"
+  id="myeclipse.1575384141861"
+  context-root="/shixunexample"
+  j2ee-spec="5.0"
+  archive="shixunexample.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
