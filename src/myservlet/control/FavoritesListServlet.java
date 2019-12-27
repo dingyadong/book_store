@@ -41,4 +41,25 @@ public class FavoritesListServlet extends HttpServlet{
 		req.getRequestDispatcher("WEB-INF/JspView/favorites.jsp").forward(req, resp);
 	}
 
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		Boolean isLogin = new UserDetection().UserDetection(req, resp);
+		System.out.println("isLogin:"+isLogin);
+		if(!isLogin){
+			resp.sendRedirect("login.jsp");
+			return;
+		}
+		System.out.println("isLogin:"+isLogin);
+		User user = (User) req.getSession().getAttribute("user");
+		List<Favorites> f= new FavoritesDao().ListFavorites(user.getId(),user.getPassword());
+		
+		if(f==null){
+			f = new ArrayList<Favorites>();
+		}
+		req.getSession().setAttribute("favorites", f);
+		req.getRequestDispatcher("WEB-INF/JspView/favorites.jsp").forward(req, resp);
+	}
+
 }

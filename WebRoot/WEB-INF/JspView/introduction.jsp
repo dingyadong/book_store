@@ -8,19 +8,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 %>  <head>
     <base href="<%=basePath%>">
 
-		<link href="AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css" />
-		<link href="AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
-		<link href="basic/css/demo.css" rel="stylesheet" type="text/css" />
-		<link type="text/css" href="css/optstyle.css" rel="stylesheet" />
-		<link type="text/css" href="css/style.css" rel="stylesheet" />
 
-		<script type="text/javascript" src="basic/js/jquery-1.7.min.js"></script>
-		<script type="text/javascript" src="basic/js/quick_links.js"></script>
 
-		<script type="text/javascript" src="AmazeUI-2.4.2/assets/js/amazeui.js"></script>
-		<script type="text/javascript" src="js/jquery.imagezoom.min.js"></script>
-		<script type="text/javascript" src="js/jquery.flexslider.js"></script>
-		<script type="text/javascript" src="js/list.js"></script>
+
+
 
 	</head>
 
@@ -237,7 +228,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							</li>
 							<li>
 								<div class="clearfix tb-btn tb-btn-basket theme-login"  style="margin-left: 10px;">
-								<a class="am-btn-warning" href="FavoritesAddServlet?pid=${bookinfo.id}">添加到收藏夹 </a>
+								<input class="am-btn am-btn-danger am-btn-xg" type="submit" formaction="FavoritesAddServlet?pid=${bookinfo.id}" value="添加到收藏夹">
 									
 								</div>	
 							</li>

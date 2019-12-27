@@ -53,7 +53,7 @@ public class OrderItemAddServlet extends HttpServlet {
        }
 
        if (!found){
-    	   int = 
+    	
            ois.add(oi);
            }
 } catch (Exception e) {
