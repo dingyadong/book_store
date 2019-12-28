@@ -9,7 +9,7 @@
 可作为初学者系统学习的参考。
   
 ### 编译环境
-myeclipse8.5+tomcat6+JDK1.6.0_13
+Myeclipse8.5+Tomcat6+JDK1.6.0_13
 
 
 ### 主页<br/>
