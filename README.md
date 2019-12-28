@@ -3,10 +3,14 @@
    ![带logo社交样式](https://img.shields.io/badge/building-unfinished-brightgreen)  ![带logo社交样式](https://img.shields.io/badge/GitHub-dingyadong-yellow.svg?style=social&logo=github)  
 <br/>
 ### 项目简介
-该系统前段样式使用了AmazeUI框架、后台使用了基本的MVC架构。  
+该系统使用了AmazeUI框架、mysql、JSTL支持库，以及基本的MVC架构。
 实现了用户登录、购物车、订单生成、订单查询、收藏夹、商品浏览足迹等常用商城功能。  
 功能方面还未完成支付功能，尚未完结。  
 可作为初学者系统学习的参考。
+  
+### 编译环境
+myeclipse8.5+tomcat6+JDK1.6.0_13
+
 
 ### 主页<br/>
 ![主页](/img/主页.png)
