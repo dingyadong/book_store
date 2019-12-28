@@ -1,4 +1,4 @@
-# 简单的卖书商城 
+# 购物书城
 #### 基于MVC架构
    ![带logo社交样式](https://img.shields.io/badge/building-unfinished-brightgreen)  ![带logo社交样式](https://img.shields.io/badge/GitHub-dingyadong-yellow.svg?style=social&logo=github)  
 <br/>
